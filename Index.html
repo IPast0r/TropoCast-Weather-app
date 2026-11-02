@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TropoCast | Weather app</title>
+    <link rel="shortcut icon" href="img/app.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <section id="general_section" class="weather_general_info">
+        <header>
+            <div>
+                <input id="city_input" type="text" placeholder="City name...">
+                <button id="city_btn"><img class="input_icon" src="img/magnifying-glass-solid-full.svg" alt="" srcset=""></button>
+            </div>
+            <button id="btn-theme" onclick="toggleTheme()" style=" transform: translateY(-1px);" data-tooltip="Tema">◐</button>
+        </header>
+
+        <div>
+            <span id="city_name"></span>
+            <span id="city_code"></span>
+        </div>
+        <span id="city_temp"></span>
+        <span id="city_description"></span><span id="weather_icon"></span>
+        <span id="city_humidity"></span>    
+        <br>  
+        <div>
+            <span id="city_temp_max"></span>      
+            <span id="city_temp_min"></span>      
+        </div>
+
+        <section class="weather_aditional_info">
+            <div class="div_moon">
+                <h2>MOON PHASE</h2>
+                <img id="moon_img" class="moon_img" src="img/moon_phases/fullMoon.png" alt="Image of the moon">
+            </div>
+
+            <div class="div_info">
+                <h2>ADDITIONAL INFO</h2>
+                <span id="city_term"></span>
+                <span id="city_wind"></span>
+                <span id="city_presure"></span>
+                <span id="city_visibility"></span>
+                <span id="city_timezone"></span>
+            </div>
+            <img id="city_image" src="img/default.png" alt="Image of the searched city">    
+        </section>
+    
+    </section>
+
+    <script src="js/config.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
