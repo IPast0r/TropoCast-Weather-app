@@ -8,10 +8,10 @@ TropoCast is a client-side weather and urban media dashboard. The project integr
   </tr>
   <tr>
     <td style="padding: .5rem;">
-     - **Real-time weather data:** Displays temperature, wind speed, pressure, and visibility using the OpenWeather API. <br>
-     - **Wikipedia integration:** Dynamically fetches the main image of the searched city using the MediaWiki API. <br>
-     - **Local moon phase calculation:** Computes and displays the current lunar phase using a client-side JavaScript algorithm. <br>
-     - **Local time conversion:** Calculates the exact local time of the searched city using its UTC offset. <br>
+     - Real-time weather data: Displays temperature, wind speed, pressure, and visibility using the OpenWeather API. <br>
+     - Wikipedia integration: Dynamically fetches the main image of the searched city using the MediaWiki API. <br>
+     - Local moon phase calculation: Computes and displays the current lunar phase using a client-side JavaScript algorithm. <br>
+     - Local time conversion: Calculates the exact local time of the searched city using its UTC offset. <br>
     </td>
   </tr>
 </table> 
